@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>xhatt.com</title>
+
+<style>
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(#66ccff 1px, transparent 1px);
+    background-size: 70px 70px, 120px 120px;
+}
+
+
+    box-shadow:
+        0 0 40px #00bfff,
+        0 0 80px #00bfff,
+        0 0 150px #0099ff;
+
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.2);
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+h1 {
+    animation: slide 2s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px; /* Optional: rounded corners */
+
+    box-shadow:
+        0 0 10px #00bfff,
+        0 0 20px #00bfff,
+        0 0 40px #00bfff,
+        0 0 80px #00bfff;
+
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow:
+            0 0 10px #00bfff,
+            0 0 20px #00bfff,
+            0 0 40px #00bfff;
+    }
+
+    to {
+        box-shadow:
+            0 0 20px #00bfff,
+            0 0 40px #00bfff,
+            0 0 80px #00bfff,
+            0 0 120px #00bfff;
+    }
+}
+body{
+    background:#000;
+    overflow:hidden;
+}
+
+.lightning{
+    position:fixed;
+    top:-20px;
+    left:50%;
+    animation:flash 4s infinite;
+    pointer-events: none;
+}
+
+.lightning span{
+    position:absolute;
+    width:5px;
+    background:#00bfff;
+
+    box-shadow:
+    0 0 10px #00bfff,
+    0 0 20px #00bfff,
+    0 0 40px #00bfff,
+    0 0 80px #00bfff;
+}
+
+.lightning span:nth-child(1){
+    height:80px;
+    transform:rotate(15deg);
+}
+
+.lightning span:nth-child(2){
+    top:70px;
+    left:15px;
+    height:60px;
+    transform:rotate(-30deg);
+}
+
+.lightning span:nth-child(3){
+    top:120px;
+    left:-5px;
+    height:90px;
+    transform:rotate(25deg);
+}
+
+.lightning span:nth-child(4){
+    top:200px;
+    left:18px;
+    height:70px;
+    transform:rotate(-35deg);
+}
+
+.lightning span:nth-child(5){
+    top:250px;
+    left:-8px;
+    height:90px;
+    transform:rotate(20deg);
+}
+
+.lightning span:nth-child(6){
+    top:330px;
+    left:15px;
+    height:60px;
+    transform:rotate(-25deg);
+}
+
+.lightning span:nth-child(7){
+    top:380px;
+    left:-5px;
+    height:100px;
+    transform:rotate(15deg);
+}
+
+@keyframes flash{
+
+0%,92%,100%{
+opacity:0;
+}
+
+93%{
+opacity:1;
+}
+
+94%{
+opacity:0;
+}
+
+95%{
+opacity:1;
+}
+
+96%{
+opacity:0;
+}
+
+97%{
+opacity:1;
+}
+
+}
+
+ 
+</style>
+</head>
+<body>
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+
+<h1>Welcome to Page 2!</h1>
+<p>what is xhatt?</p>
+<p>xhatt is a platform where u make new friends </p>
+<img src="IMG_20305.jpg" alt="xhatt friends" width="200" height="200">
+<a href="https://chat.whatsapp.com/Clc34oU1D23JEHpIDUKpQ1?s=cl&p=a&ilr=0">
+    Join Xhatt Group
+</a>
+</body>
+
+</html>
